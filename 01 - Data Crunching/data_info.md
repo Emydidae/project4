@@ -1,66 +1,72 @@
-### Student ID
-### 1 - Student Age                           
-    1: 18-21, 2: 22-25, 3: above 26
-### 2 - Sex                                   
-    1: female, 2: male
-### 3 - Graduated high-school type            
-    1: private, 2: state, 3: other
-### 4 - Scholarship type                      
-    1: None, 2: 25%, 3: 50%, 4: 75%, 5: Full
-### 5 - Additional work                       
-    1: Yes, 2: No
-### 6 - Regular artistic or sports activity   
-    1: Yes, 2: No
-### 7 - Marital Status                        
-    1: Yes, 2: No
-### 8 - Total salary if available            
-    1: USD 135-200, 2: USD 201-270, 3: USD 271-340, 4: USD 341-410, 5: above 410
-### 9 - Transportation to the university      
-    1: Bus, 2: Private car/taxi, 3: bicycle, 4: Other
-### 10 - Accomodation type in Cyprus          
-    1: rental, 2: dormitory, 3: with family, 4: Other
-### 11 - Mother's education                   
-    1: primary school, 2: secondary school, 3: high school, 4: university, 5: MSc., 6: Ph.D.
-### 12 - Father's education
-    1: primary school, 2: secondary school, 3: high school, 4: university, 5: MSc., 6: Ph.D.
-### 13 - Number of sisters/brothers (if available)
-    1: 1, 2:, 2, 3: 3, 4: 4, 5: 5 or above
-### 14 - Parental Marital Status
-    1: married, 2: divorced, 3: died - one of them or both
-### 15 - Mother's occupation
-    1: retired, 2: housewife, 3: government officer, 4: private sector employee,
-    5: self-employment, 6: other
-### 16 - Father's occupation
-    1: retired, 2: housewife, 3: government officer, 4: private sector employee,
-    5: self-employment, 6: other
-### 17 - Weekly study hours
-    1: None, 2: <5 hours, 3: 6-10 hours, 4: 11-20 hours, 5: more than 20 hours
-### 18 - Reading frequency (non-scientific books/journals)
-    1: None, 2: Sometimes, 3: Often
-### 19 - Reading frequency ((scientific books/journals)
-    1: None, 2: Sometimes, 3: Often
-### 20 - Attendance to the seminars/conferences related to the department
-    1: Yes, 2: No
-### 21 - Impact of your projects/activities on your success
-    1: positive, 2: negative, 3: neutral
-### 22 - Attendance to classes
-    1: always, 2: sometimes, 3: never
-### 23 - Preparation to midterm exams 1
-    1: alone, 2: with friends, 3: not applicable
-### 24 - Preparation to midterm exams 2
-    1: closest date to the exam, 2: regularly during the semester, 3: never
-### 25 - Taking notes in classes
-    1: never, 2: sometimes, 3: always
-### 26 - Listening in classes
-    1: never, 2: sometimes, 3: always
-### 27 - Discussion improves my interest and success in the course
-    1: never, 2: sometimes, 3: always
-### 28 - Flip-classroom (prepare by reading / learning content before, then practice in-class)
-    1: not useful, 2: useful, 3: not applicable
-### 29 - Cumulative grade point average in the last semester (/4.00)
-    1: <2.00, 2: 2.00-2.49, 3: 2.50-2.99, 4: 3.00-3.49, 5: above 3.49
-### 30 - Expected Cumulative grade point average in the graduation (/4.00)
-    1: <2.00, 2: 2.00-2.49, 3: 2.50-2.99, 4: 3.00-3.49, 5: above 3.49
-### Course ID 
-### OUTPUT Grade
-    0: Fail, 1: DD, 2: DC, 3: CC, 4: CB, 5: BB, 6: BA, 7: AA
+### Marital status: 
+The marital status of the student. (Categorical)
+### Application mode:
+The method of application used by the student. (Categorical)
+### Application order:
+The order in which the student applied. (Numerical)
+### Course:
+The course taken by the student. (Categorical)
+### Daytime/evening attendance:
+Whether the student attends classes during the day or in the evening. (Categorical)
+### Previous qualification:
+The qualification obtained by the student before enrolling in higher education. (Categorical)
+### Nationality:
+The nationality of the student. (Categorical)
+### Mother's qualification:
+The qualification of the student's mother. (Categorical)
+### Father's qualification:
+The qualification of the student's father. (Categorical)
+### Mother's occupation:
+The occupation of the student's mother. (Categorical)
+### Father's occupation:
+The occupation of the student's father. (Categorical)
+### Displaced:
+Whether the student is a displaced person. (Categorical)
+### Educational special needs:
+Whether the student has any special educational needs. (Categorical)
+### Debtor:
+Whether the student is a debtor. (Categorical)
+### Tuition fees up to date:
+Whether the student's tuition fees are up to date. (Categorical)
+### Gender:
+The gender of the student. (Categorical)
+### Scholarship holder:
+Whether the student is a scholarship holder. (Categorical)
+### Age at enrollment:
+The age of the student at the time of enrollment. (Numerical)
+### International:
+Whether the student is an international student. (Categorical)
+### Curricular units 1st sem (credited):
+The number of curricular units credited by the student in the first semester. (Numerical)
+### Curricular units 1st sem (enrolled):
+The number of curricular units enrolled by the student in the first semester. (Numerical)
+### Curricular units 1st sem (evaluations):
+The number of curricular units evaluated by the student in the first semester. (Numerical)
+### Curricular units 1st sem (approved):
+The number of curricular units approved by the student in the first semester. (Numerical)
+### Curricular units 1st sem (grade):
+(Conjecture - couldn't find an official explanation) A calculated score representing the student's success in the first semester. (Numerical)
+### Curricular units 1st sem (without evaluations):
+(Conjecture - couldn't find an official explanation) The number of curricular units taken by the student with no usable grade information in the first semester. (Numerical)
+### Curricular units 2nd sem (credited):
+The number of curricular units credited by the student in the second semester. (Numerical)
+### Curricular units 2nd sem (enrolled):
+The number of curricular units enrolled by the student in the second semester. (Numerical)
+### Curricular units 2nd sem (evaluations):
+The number of curricular units evaluated by the student in the second semester. (Numerical)
+### Curricular units 2nd sem (approved):
+The number of curricular units approved by the student in the second semester. (Numerical)
+### Curricular units 2nd sem (grade):
+(Conjecture - couldn't find an official explanation) A calculated score representing the student's success in the second semester. (Numerical)
+### Curricular units 2nd sem (without evaluations):
+(Conjecture - couldn't find an official explanation) The number of curricular units taken by the student with no usable grade information in the second semester. (Numerical)
+### Unemployment rate:
+(Conjecture - couldn't find an official explanation) Country's unemployment rate for the school year. (Numerical)
+### Inflation rate:
+(Conjecture - couldn't find an official explanation) Country's inflation rate for the school year. (Numerical)
+### GDP:
+(Conjecture - couldn't find an official explanation) Country's GDP for the school year. (Numerical)
+### Target:
+The target value for the model - graduate, dropout, or enrolled. (Categorical)
+
+Column descriptions taken from [kaggle](https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention/data) table info. More info on categorical data can be found [here](https://www.mdpi.com/2306-5729/7/11/146).
