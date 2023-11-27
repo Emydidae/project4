@@ -1,4 +1,4 @@
-# Project 4 - Demystifying Machine Learning by Predicting Grades
+# Project 4 - Demystifying Machine Learning by Predicting Student Performance
 
 [Data source.](https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention)
 
